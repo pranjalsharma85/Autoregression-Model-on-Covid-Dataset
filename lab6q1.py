@@ -7,7 +7,7 @@ import numpy as np
 from statsmodels.graphics.tsaplots import plot_acf
 import matplotlib.pyplot as plt
 
-df_q1=pd.read_csv("C:\\Users\\kamal\\Desktop\\daily_covid_cases.csv")
+df_q1=pd.read_csv("C:\\Users\\HP\\Desktop\\daily_covid_cases.csv")
 original=df_q1['new_cases']
 
 ###Q1 part a
