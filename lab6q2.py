@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.metrics import mean_absolute_percentage_error
 from sklearn.metrics import mean_squared_error
 from statsmodels.tsa.ar_model import AutoReg as AR
-series = pd.read_csv("C:\\Users\\kamal\\Desktop\\daily_covid_cases.csv",parse_dates=['Date'],index_col=['Date'],sep=',')
+series = pd.read_csv("C:\\Users\\HP\\Desktop\\daily_covid_cases.csv",parse_dates=['Date'],index_col=['Date'],sep=',')
 train_size = 0.65 # 35% for testing
 X = series.values
 train, test = X[:int(len(X)*train_size)], X[int(len(X)*train_size):]
